@@ -551,6 +551,134 @@ nav ul li a.active{
     font-size:1.5rem;
 }
 
+/* ===============================
+   PROJECT LINKS
+================================== */
+
+.project-links{
+    display:flex;
+    gap:12px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.project-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+
+    padding:10px 16px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-size:.9rem;
+    font-weight:600;
+
+    transition:all .3s ease;
+}
+
+
+/* ===============================
+   GITHUB BUTTON
+================================== */
+
+.github-btn{
+    background:#111827;
+    color:#ffffff;
+    border:1px solid #374151;
+}
+
+.github-btn:hover{
+    background:#ffffff;
+    color:#111827;
+    border-color:#ffffff;
+    transform:translateY(-3px);
+}
+
+
+/* ===============================
+   LIVE DASHBOARD BUTTON
+================================== */
+
+.live-btn{
+    background:#38bdf8;
+    color:#0f172a;
+    border:1px solid #38bdf8;
+}
+
+.live-btn:hover{
+    background:transparent;
+    color:#38bdf8;
+    transform:translateY(-3px);
+}
+
+
+/* ===============================
+   CASE STUDY BUTTON
+================================== */
+
+.case-btn{
+    background:transparent;
+    color:#38bdf8;
+    border:1px solid #38bdf8;
+}
+
+.case-btn:hover{
+    background:#38bdf8;
+    color:#0f172a;
+    transform:translateY(-3px);
+}
+
+
+/* ===============================
+   PROJECT CARD HOVER
+================================== */
+
+.project-card{
+    transition:all .3s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    border-color:#38bdf8;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+
+/* ===============================
+   PROJECT ICON
+================================== */
+
+.project-icon{
+    font-size:2rem;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+
+/* ===============================
+   PROJECT TAGS
+================================== */
+
+.project-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:20px;
+}
+
+.project-tags span{
+    padding:6px 10px;
+    background:#0f172a;
+    color:#38bdf8;
+    border:1px solid #334155;
+    border-radius:6px;
+    font-size:.8rem;
+}
+
 
 /* ===============================
    PROJECT CONTENT
@@ -590,6 +718,16 @@ nav ul li a.active{
     line-height:1.7;
 
     margin-bottom:25px;
+}
+
+/* ===============================
+   PROJECT ICON
+================================== */
+
+.project-icon{
+    font-size:2rem;
+    color:#38bdf8;
+    margin-bottom:20px;
 }
 
 /* ===============================
