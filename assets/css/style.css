@@ -792,6 +792,17 @@ footer {
     border-radius:12px
   }
 
+  /* ==========================================
+     RISING STAR BANNER - MOBILE
+     ========================================== */
+
+  .award-banner-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 22px;
+  }
+
   .nav-links.open {
     display:flex
   }
@@ -829,10 +840,6 @@ footer {
     
     .project-card {
       min-height:auto
-    }
-    
-    .award{
-      grid-template-columns:1fr
     }
     
     .contact-box {
